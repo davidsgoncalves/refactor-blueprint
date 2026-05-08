@@ -23,7 +23,7 @@ A skill não é um gerador de plano que termina quando o documento está pronto.
 Clone (ou copie) a pasta da skill para o diretório de skills do Claude Code:
 
 ```bash
-git clone https://github.com/<owner>/refactor-blueprint.git ~/.claude/skills/refactor-blueprint
+git clone https://github.com/davidsgoncalves/refactor-blueprint.git ~/.claude/skills/refactor-blueprint
 ```
 
 Reinicie a sessão do Claude Code. A skill passa a estar disponível para invocação.
