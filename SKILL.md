@@ -1,6 +1,18 @@
 ---
 name: refactor-blueprint
-description: Co-piloto interativo para refactors graduais. Conduz uma descoberta mútua do código — sempre do macro (contrato do sistema, papel de cada parte, como o contrato muda) para o micro (mudanças concretas em arquivos) — e produz um blueprint vivo em markdown que orienta a execução passo a passo. A IA propõe, discute e recomenda; só executa código sob comando explícito. O blueprint pode mudar durante a execução conforme novas descobertas. Use quando o usuário invocar explicitamente "refactor-blueprint", pedir para "planejar um refactor", "rascunhar um blueprint de refactor", "estruturar uma refatoração antes de codar", "refatorar gradualmente", ou variações. Aceita invocação com alvo (ex: "refactor-blueprint em src/auth/") ou sem alvo (descobre na entrevista). NÃO executa código sem comando explícito do usuário.
+description: >-
+  Co-piloto interativo para refactors graduais. Conduz uma descoberta mútua do
+  código — sempre do macro (contrato do sistema, papel de cada parte, como o
+  contrato muda) para o micro (mudanças concretas em arquivos) — e produz um
+  blueprint vivo em markdown que orienta a execução passo a passo. A IA
+  propõe, discute e recomenda; só executa código sob comando explícito. O
+  blueprint pode mudar durante a execução conforme novas descobertas. Use
+  quando o usuário invocar explicitamente "refactor-blueprint", pedir para
+  "planejar um refactor", "rascunhar um blueprint de refactor", "estruturar
+  uma refatoração antes de codar", "refatorar gradualmente", ou variações.
+  Aceita invocação com alvo (ex. "refactor-blueprint em src/auth/") ou sem
+  alvo (descobre na entrevista). NÃO executa código sem comando explícito do
+  usuário.
 ---
 
 # refactor-blueprint
